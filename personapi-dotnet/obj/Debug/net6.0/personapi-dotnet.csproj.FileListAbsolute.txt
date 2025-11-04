@@ -89,3 +89,8 @@ C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\S
 C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dafro\source\repos\personapi-dotnet\personapi-dotnet\obj\Debug\net6.0\personapi-dotnet.MvcApplicationPartsAssemblyInfo.cs
