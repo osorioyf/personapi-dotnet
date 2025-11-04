@@ -37,7 +37,7 @@ cd personapi-dotnet/personapi-dotnet
 3. Abre una nueva consulta (Ctrl + N)
 4. Pegar el script DDL_BD que esta en la carpeta de la entrega
 5. Presiona F5 para ejecutar
-6. (Opcional) Pegar el script DDL_inserciones para probar las tablas
+6. Pegar el script DML_inserciones para probar las tablas
 
 ### 3. Restaurar Paquetes NuGet
 
