@@ -19,6 +19,17 @@ builder.Services.AddScoped<ITelefonoRepository, TelefonoRepository>();
 // Add services to the container
 builder.Services.AddControllersWithViews();
 
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowPersonaFront", policy =>
+    {
+        policy.WithOrigins("https://persona-front-12tp.vercel.app")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // SWAGGER
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -39,6 +50,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 app.UseRouting();
+
+// Habilitar CORS
+app.UseCors("AllowPersonaFront");
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
